@@ -5,6 +5,7 @@ gem 'dotenv-rails', :groups => [:development, :test]
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
+gem 'thin'
 
 # Use postgres as the database for Active Record because its default for Heroku
 gem 'pg'
